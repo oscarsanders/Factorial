@@ -1,2 +1,3 @@
-# factorial
-This program can calculate any factorial n! if n > 0.
+# Factorial n!
+This program can calculate any factorial n! if n 
+is positive or zero..
