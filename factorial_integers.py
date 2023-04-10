@@ -8,7 +8,7 @@ while True:
     if choice == "s":
         num_int = input("Factorial of: ")
 
-        if num_int.isdigit() is True:
+        if num_int.isdigit():
 
             num_int = int(num_int)
 
@@ -22,10 +22,10 @@ while True:
 
             print(num_int,"! = ",factorial)
 
-        elif num_int.isdigit() is False:
+        elif not num_int.isdigit():
 
-            print("Can't calculate that dude ...")
-            print("Try only positive integers")
+            print("Can't calculate that ...")
+            print("Try only positive integers or zero")
             
     elif choice == "c":
         break
